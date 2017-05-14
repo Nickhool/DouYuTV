@@ -12,7 +12,6 @@
 		04AC0B7D1EC805090036F9DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC0B7B1EC805090036F9DF /* Main.storyboard */; };
 		04AC0B7F1EC805090036F9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC0B7E1EC805090036F9DF /* Assets.xcassets */; };
 		04AC0B821EC805090036F9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC0B801EC805090036F9DF /* LaunchScreen.storyboard */; };
-		04AC0B8A1EC808680036F9DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC0B891EC808680036F9DF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		04AC0B7E1EC805090036F9DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AC0B811EC805090036F9DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AC0B831EC805090036F9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04AC0B891EC808680036F9DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 				04AC0B7E1EC805090036F9DF /* Assets.xcassets */,
 				04AC0B801EC805090036F9DF /* LaunchScreen.storyboard */,
 				04AC0B831EC805090036F9DF /* Info.plist */,
-				04AC0B891EC808680036F9DF /* Images.xcassets */,
 			);
 			path = DYZB;
 			sourceTree = "<group>";
@@ -128,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AC0B821EC805090036F9DF /* LaunchScreen.storyboard in Resources */,
-				04AC0B8A1EC808680036F9DF /* Images.xcassets in Resources */,
 				04AC0B7F1EC805090036F9DF /* Assets.xcassets in Resources */,
 				04AC0B7D1EC805090036F9DF /* Main.storyboard in Resources */,
 			);
@@ -265,7 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = N8235HY6K4;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -280,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = N8235HY6K4;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
